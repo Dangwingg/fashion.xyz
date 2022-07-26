@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="/css/sanpham.css">
+    <title>Sản Phẩm Fashion 3N1N</title>
+</head>
+<body>
+    <div class="hea">
+        <main>
+            <div class="giohang">
+                <a onclick="showcart()"><img src="img/hang.png"><span id="countsp">0</span></a>
+            </div>
+            <div id="showcart">
+                <table>
+                    <tr>
+                        <th>STT</th>
+                        <th>Hình</th>
+                        <th>Tên Sản Phẩm</th>
+                        <th>Đơn Giá</th>
+                        <th>Số Lượng</th>
+                        <th>Thành Tiền</th>
+                    </tr>
+                    <tbody id="mycart">
+                        <a href="giohang.html">Thanh toán</a>
+                        </tbody>
+                </table>
+                
+            </div>
+            <img src="img/gh.jpg" id="gh" width="150" height="50">
+            <img src="img/3N1N.jpg" width="60" height="60">
+            <a href="dangnhap.html" target="page" id="dk">Đăng ký</a>
+        </main>
+        <nav>
+            <a href="/index.html" target="page" id="tt">TRANG CHỦ</a>
+            <a href="" target="page">Quần áo Nam</a>
+            <a href="" target="page">Quần áo Nữ</a>
+            <a href="/sanpham.html" target="page">SẢN PHẨM</a>
+            <a href="" target="page">Phụ kiện Nam</a>
+            <a href="" target="page">Phụ kiện nữ</a>
+            <a href="" target="page">VỀ CHÚNG TÔI</a>
+            <a href="" target="page">Khuyến Mãi</a>
+            <img src="img/search.png" width="20" height="20">
+        </nav>
+    </div>
+        <header>
+            <img src="img/dn.jpg" width="1500" height="500" style="margin-top: 150px;">
+        </header>
+        <h1 style="text-align: center;">Sản Phẩm</h1>
+        <div class="Column">
+            <div class="boxsp">
+                <div class="sp img"><img src="img/baggy1.png" height="200"></div>
+                <div class="ten">Quần Baggy rách gối nữ</div>
+                    <p><span>200.000đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/baggy2.png" height="200"></div>
+                <div class="ten">Quần Baggy nam</div>
+                    <p><span>220.000đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/shortnam.png" height="200"></div>
+                <div class="ten">Quần Short Nam</div>
+                    <p><span>150.000 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/chanvay.png" height="200"></div>
+                <div class="ten">Chân Váy đen tà xòe cao cấp</div>
+                    <p><span>98.000 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/vayyem.png" height="200"></div>
+                <div class="ten">Váy yếm đen</div>
+                    <p><span>110.000 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/dongho.png" height="200"></div>
+                <div class="ten">Đồng Hồ FESTINA nữ</div>
+                    <p><span>1.068.000 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/donghonam.png" height="200"></div>
+                <div class="ten">Đồng hồ NVW nam</div>
+                    <p><span>1.043.000 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/cavat.png" height="200"></div>
+                <div class="ten">Cà vạt Hàn Quốc</div>
+                    <p><span>35.000 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/vongtym.png" height="200"></div>
+                <div class="ten">Vòng tay tim đôi</div>
+                    <p><span>80.000 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/aopolo.png" height="200"></div>
+                <div class="ten">Áo Polo nam</div>
+                    <p><span>120.000 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/aosomi.png" height="200"></div>
+                <div class="ten">Áo sơ mi nam trắng</div>
+                    <p><span>112.363 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/croptop.png" height="200"></div>
+                <div class="ten">Áo croptop polo</div>
+                    <p><span>60.000 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+        </div>
+        <br>
+        <footer>
+            <div class="footer">
+            Điện thoại: 01234567899<br>
+            Fax: (028) 6263 0379<br>
+            Email: 3n1n@gmail.com<br>
+        </div>
+        </footer>
+        <script src="thuvien.js">
+        </script>
+</body>
+</html>
